@@ -18,37 +18,37 @@ const OverviewPart = () => {
     },
     {
         main_title:"Total Land Area",
-        sub_heading:"Comming Soon",
+        sub_heading:"Coming Soon",
         image:TotalLandArea,
     },
     {
         main_title:"Total Units",
-        sub_heading:"Comming Soon",
+        sub_heading:"Coming Soon",
         image:TotalUnits,
     },
     {
         main_title:"Number Of Floors",
-        sub_heading:"Comming Soon",
+        sub_heading:"Coming Soon",
         image:NumberOfFloors,
     },
     {
         main_title:"Total Towers",
-        sub_heading:"Comming Soon",
+        sub_heading:"Coming Soon",
         image:TotalTowers,
     },
     {
         main_title:"Unit Varients",
-        sub_heading:"Comming Soon",
+        sub_heading:"Coming Soon",
         image:UnitVarients,
     },
     {
         main_title:"Possession Date",
-        sub_heading:"Comming Soon",
+        sub_heading:"Coming Soon",
         image:PossessionDate,
     },
     {
         main_title:"Location",
-        sub_heading:"Comming Soon",
+        sub_heading:"Coming Soon",
         image:Location,
     }
     ])
@@ -73,6 +73,7 @@ const OverviewPart = () => {
             <div style={{textAlign:"center"}}>
             <TitleForOverview title="Waterford Overview"/>
             </div>
+            <br/>
             <div className="overview_main">
               {displayingOverview()}
             </div>

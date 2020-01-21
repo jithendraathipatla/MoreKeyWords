@@ -7,15 +7,17 @@ const Gallery = () => {
         <div>
             <div style={{textAlign:"center"}}>
             <TitleComponent title="Waterford Gallery"/>
+            <br/>
             <img src={ComingSoon} alt="commingsoon"/>
             </div>
             <br/>
             <hr/>
             <PricingComponent/>
             <hr/>
-            
+
             <div style={{textAlign:"center"}}>
             <TitleComponent title="Waterford Location"/>
+            <br/>
             <img src={ComingSoon} alt="commingsoon"/>
             </div>
         </div>

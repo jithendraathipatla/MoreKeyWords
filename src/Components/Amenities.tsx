@@ -109,6 +109,7 @@ const Amenities = () => {
             <div style={{textAlign:"center"}}>
                 <Title title="Waterford Amenities"/>
             </div>
+            <br/>
             <div className="Amenities_main">
             {displayingAmenities()}
             </div>

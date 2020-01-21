@@ -42,8 +42,8 @@
 .overview_main{
   display: grid;
   grid-template-columns: 3fr 3fr 3fr 3fr;
-  grid-gap: 40px;
-  margin-left:50px;
+  grid-gap: 30px;
+  margin-left:40px;
 }
 
 .overview_main .subdivisions{
@@ -53,6 +53,12 @@
 .overview_main .subdivisions .headings{
   display: block;
   padding-left: 30px;
+}
+
+.overview_main .subdivisions .headings h1{
+  text-transform:uppercase;
+  font-size:17px;
+  font-weight:600;
 }
 
 .awssld__bullets {
@@ -107,4 +113,12 @@
 
 .box:not(:last-child) {
    margin-bottom: 0rem !important;
+}
+
+.table tr.is-selected th {
+ text-align:center !important;
+}
+
+table td:not([align]), table th:not([align]) {
+  text-align: center !important;
 }
