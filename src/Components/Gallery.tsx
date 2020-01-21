@@ -1,7 +1,7 @@
 import React from 'react';
 import TitleComponent from '../Components/Title';
 import ComingSoon from '../Images/Coming-Soon-Project-1.jpg';
-
+import PricingComponent from '../Components/Costing';
 const Gallery = () => {
     return (
         <div>
@@ -10,6 +10,10 @@ const Gallery = () => {
             <img src={ComingSoon} alt="commingsoon"/>
             </div>
             <br/>
+            <hr/>
+            <PricingComponent/>
+            <hr/>
+            
             <div style={{textAlign:"center"}}>
             <TitleComponent title="Waterford Location"/>
             <img src={ComingSoon} alt="commingsoon"/>
