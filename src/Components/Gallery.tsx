@@ -1,5 +1,6 @@
 import React from 'react';
 import TitleComponent from '../Components/Title';
+import LightHouse from '../Components/Lighthouse';
 import ComingSoon from '../Images/Coming-Soon-Project-1.jpg';
 import PricingComponent from '../Components/Costing';
 const Gallery = () => {
@@ -8,7 +9,7 @@ const Gallery = () => {
             <div style={{textAlign:"center"}}>
             <TitleComponent title="Waterford Gallery"/>
             <br/>
-            <img src={ComingSoon} alt="commingsoon"/>
+           <LightHouse/>
             </div>
             <br/>
             <hr/>
