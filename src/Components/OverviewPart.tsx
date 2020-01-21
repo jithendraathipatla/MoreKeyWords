@@ -71,7 +71,7 @@ const OverviewPart = () => {
     return (
         <div style={{marginBottom:"30px"}}>
             <div style={{textAlign:"center"}}>
-            <TitleForOverview title="Prestige Waterford Overview"/>
+            <TitleForOverview title="Waterford Overview"/>
             </div>
             <div className="overview_main">
               {displayingOverview()}

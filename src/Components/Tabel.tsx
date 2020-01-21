@@ -9,7 +9,7 @@ const Tabel = () => {
             </div>
             <table className="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
   <thead>
-    <tr className="is-selected" style={{backgroundColor:"rgb(216, 198, 127)"}}>
+    <tr className="is-selected" style={{backgroundColor:"rgba(216, 198, 127,222)", border:"3px solid #eee"}}>
       <th>Project</th>
       <th>Configuration</th>
       <th>Unit Carpet (Sq.Ft)</th>
