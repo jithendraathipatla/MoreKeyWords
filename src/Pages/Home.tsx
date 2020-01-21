@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import SliderComponent from '../Components/Slider';
 import DescriptionComponent from '../Components/Description';
 import OverView from '../Components/OverviewPart';
@@ -7,6 +7,9 @@ import GalleryComponent from '../Components/Gallery';
 import AmenitiesComponent from '../Components/Amenities';
 
 const Home = () => {
+    useEffect(() => {
+        document.title="Prestige Waterford | Prestige Waterford WhiteField | Waterford Whitefield"
+     });
     return (
         <div>
             <SliderComponent/>
