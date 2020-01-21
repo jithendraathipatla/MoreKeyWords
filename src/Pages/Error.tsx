@@ -1,9 +1,14 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 const Error = () => {
     return (
-        <div>
-            I am from the Error Page
+        <div style={{marginTop:"80px"}}>
+            <div className="card" style={{height:"73vh", textAlign:"center", paddingTop:"27vh"}}>
+               <h1 style={{fontSize:"20px"}}>Opps You have landed Into the wrong Page!!</h1>
+               <br/>
+               <button className="button is-success"><Link to="/" style={{color:"white"}}>Home</Link></button>
+            </div>
         </div>
     );
 };
