@@ -1,7 +1,10 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import {Link} from 'react-router-dom'
 
 const Error = () => {
+    useEffect(() => {
+        window.scrollTo(0,0);  
+    })
     return (
         <div style={{marginTop:"80px"}}>
             <div className="card" style={{height:"73vh", textAlign:"center", paddingTop:"27vh"}}>

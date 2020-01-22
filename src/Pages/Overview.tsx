@@ -4,7 +4,8 @@ import OverviewComponent from '../Components/OverviewPart';
 
 const Overview = () => {
     useEffect(() => {
-        document.title="Apartments in Whitefield | Waterford Apartments in Whitefield | Prestige properties"
+        document.title="Apartments in Whitefield | Waterford Apartments in Whitefield | Prestige properties";
+        window.scrollTo(0,0);
      });
     return (
         <div style={{marginTop:"80px"}}>

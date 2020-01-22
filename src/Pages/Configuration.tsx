@@ -3,7 +3,8 @@ import ConfigurationPart from '../Components/Tabel';
 
 const Configuration = () => {
     useEffect(() => {
-       document.title="Prestige Waterford Configuration | Prestige Waterford Land Area | Waterford Possession Date"
+       document.title="Prestige Waterford Configuration | Prestige Waterford Land Area | Waterford Possession Date";
+       window.scrollTo(0,0);
     });
     return (
         <div style={{marginTop:"80px"}}>
