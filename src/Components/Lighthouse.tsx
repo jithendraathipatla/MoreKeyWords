@@ -12,7 +12,6 @@ const Lighthouse = (props:any) => {
   const displayingGallery = () => {
     return state.map((item:any,i:any)=>{
       return(
-        
         <div key={i} className="card " style={{paddingBottom:"8px", backgroundColor:"#eee"}}>
           <img src={item.image} alt={item.name} onClick={()=> setisOpen(true)} width="400px"/>
           {item.name}

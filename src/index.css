@@ -166,3 +166,19 @@ table td:not([align]), table th:not([align]) {
 .label{
   text-align: justify;
 }
+
+.clicktoknowbutton:hover{
+  cursor: pointer;
+}
+
+.styles_modal__gNwvD {
+  max-width: 800px;
+  position: relative;
+  padding: 0.2rem;
+  width: 395px;
+  border-radius: 20px;
+  background: #ffffff;
+  background-clip: padding-box;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);
+  margin: 0 auto;
+}

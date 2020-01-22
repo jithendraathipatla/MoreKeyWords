@@ -81,7 +81,6 @@ const Gallery = () => {
               <TitleComponent title="Waterford Interior"/>
             <LightHouse images={[firstGallery, secondGallery, thirdGallery, fourthGallery]} state={interior} />
             </div>
-
             <div className="galleryInternalClassOne">
             <div style={{borderRight:"1px solid #eee", paddingRight:"10px"}}>
               <TitleComponent title="Waterford Exterior"/>
