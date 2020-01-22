@@ -4,7 +4,7 @@ const Form = () => {
     return (
     <div className="main_Form">
         
-        <div className="field">
+  <div className="field">
   <label className="label">Name</label>
   <div className="control">
     <input className="input" type="text" placeholder="e.g Alex Smith" />
@@ -12,19 +12,19 @@ const Form = () => {
   </div>
   
 
-<div className="field">
+  <div className="field">
   <label className="label">Email</label>
   <div className="control">
     <input className="input" type="email" placeholder="e.g. alexsmith@gmail.com"/>
   </div>
-</div>
+  </div>
 
-<div className="field">
+  <div className="field">
   <label className="label">Phone Number</label>
   <div className="control">
     <input className="input" type="number" placeholder="e.g. 999999999"/>
   </div>
-</div>
+  </div>
 
 <br/>
 <button className="button is-warning is-light">Submit</button>

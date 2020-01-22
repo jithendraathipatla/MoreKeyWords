@@ -125,9 +125,13 @@ table td:not([align]), table th:not([align]) {
 
 .galleryImages{
   display: grid;
-  grid-template-columns: 3fr 3fr 3fr 3fr;
-  grid-gap:20px 22px;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-gap:20px 10px;
+}
 
+.masterplan_main{
+  display: grid;
+  grid-template-columns: 5fr 10fr;
 }
 
 .galleryImages img{
@@ -144,6 +148,11 @@ table td:not([align]), table th:not([align]) {
   cursor: pointer;
 }
 
+.images-in-grid{
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  grid-gap:15px;
+}
 
 .Location-display{
   display: grid;

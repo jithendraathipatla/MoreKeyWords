@@ -6,6 +6,7 @@ import TabelComponent from '../Components/Tabel';
 import GalleryComponent from '../Components/Gallery';
 import AmenitiesComponent from '../Components/Amenities';
 import Location from '../Components/Location';
+import Card from '../Components/Costing';
 
 
 const Home = () => {
@@ -27,6 +28,9 @@ const Home = () => {
             <hr/>
             
             <GalleryComponent/>
+            <hr/>
+
+            <Card/>
             <hr/>
             <AmenitiesComponent/>
             <hr/>
