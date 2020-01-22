@@ -8,7 +8,7 @@ const Amenities = () => {
         window.scrollTo(0,0);
      });
     return (
-        <div style={{marginTop:"80px"}}>
+        <div className="box" style={{marginTop:"90px"}}>
            <AmenitiesContent/>
            <br/>
            <hr/>

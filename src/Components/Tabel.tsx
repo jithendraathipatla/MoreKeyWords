@@ -1,5 +1,6 @@
 import React from 'react';
 import TitleComponent from '../Components/Title';
+import Modal from '../Components/Modal';
 
 const Tabel = () => {
     return (
@@ -25,9 +26,8 @@ const Tabel = () => {
     </tr>
     <tr>
     <td>1 BHk Small</td>
-    <td>Click To Know More</td>
      <td>Click To Know More</td>
-    
+     <td>Click To Know More</td>
     </tr>
     <tr>
      <td>1 BHK Large</td>

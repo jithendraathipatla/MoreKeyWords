@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react';
 import Location from '../Components/Location';
+import Costingabc from '../Components/Costing';
 
 const Costing = () => {
     useEffect(() => {
@@ -7,8 +8,9 @@ const Costing = () => {
         window.scrollTo(0,0);
      });
     return (
-        <div>
-            I am from the costing
+        <div className="box" style={{marginTop:"90px"}}>
+          
+           <Costingabc/>
             <br/>
             <hr/>
             <Location/>

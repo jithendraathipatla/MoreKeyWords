@@ -11,7 +11,6 @@ const Gallery = () => {
            <LightHouse/>
             </div>
             <br/>
-           
         </div>
     );
 };

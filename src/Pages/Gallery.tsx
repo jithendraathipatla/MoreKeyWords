@@ -8,7 +8,7 @@ const Gallery = () => {
         window.scrollTo(0,0);
      });
     return (
-        <div>
+        <div className="box" style={{marginTop:"90px"}}>
             <GalleryComponent/>
             <br/>
             <hr/>
