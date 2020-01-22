@@ -1,5 +1,6 @@
 import React,{useEffect} from 'react';
 import AmenitiesContent from '../Components/Amenities';
+import Location from '../Components/Location';
 
 const Amenities = () => {
     useEffect(() => {
@@ -9,6 +10,10 @@ const Amenities = () => {
     return (
         <div style={{marginTop:"80px"}}>
            <AmenitiesContent/>
+           <br/>
+           <hr/>
+           <Location/>
+           <br/>
         </div>
     );
 };

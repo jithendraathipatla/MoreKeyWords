@@ -1,5 +1,6 @@
 import React,{useEffect} from 'react';
 import ConfigurationPart from '../Components/Tabel';
+import Location from '../Components/Location';
 
 const Configuration = () => {
     useEffect(() => {
@@ -9,6 +10,10 @@ const Configuration = () => {
     return (
         <div style={{marginTop:"80px"}}>
             <ConfigurationPart/>
+            <br/>
+            <hr/>
+            <Location/>
+            <br/>
         </div>
     );
 };

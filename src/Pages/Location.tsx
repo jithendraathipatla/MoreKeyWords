@@ -1,5 +1,5 @@
 import React,{useEffect} from 'react';
-import GalleryComponent from '../Components/Gallery';
+import Locationabc from '../Components/Location';
 
 const Location = () => {
     useEffect(() => {
@@ -8,7 +8,10 @@ const Location = () => {
      });
     return (
         <div>
-            <GalleryComponent/>
+            <br/>
+            <br/>
+           <Locationabc/>
+           <br/>
         </div>
     );
 };

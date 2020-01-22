@@ -133,8 +133,7 @@ table td:not([align]), table th:not([align]) {
 .galleryImages img{
   border-radius: 2px;
   padding:0px;
-  height:200px;
-  
+  height:200px; 
 }
 
 .galleryImages img:hover{
@@ -148,9 +147,13 @@ table td:not([align]), table th:not([align]) {
 
 .Location-display{
   display: grid;
-  grid-template-columns: 8fr 6fr;
+  grid-template-columns: 8fr 4fr;
 }
 
 .main_Form{
   padding:30px;
+}
+
+.label{
+  text-align: justify;
 }

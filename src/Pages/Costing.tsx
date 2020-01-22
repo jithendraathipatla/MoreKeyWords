@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react';
+import Location from '../Components/Location';
 
 const Costing = () => {
     useEffect(() => {
@@ -8,6 +9,9 @@ const Costing = () => {
     return (
         <div>
             I am from the costing
+            <br/>
+            <hr/>
+            <Location/>
         </div>
     );
 };

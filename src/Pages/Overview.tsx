@@ -1,6 +1,7 @@
 import React,{useEffect} from 'react';
 import DescriptionComponent from '../Components/Description';
 import OverviewComponent from '../Components/OverviewPart';
+import Location from '../Components/Location';
 
 const Overview = () => {
     useEffect(() => {
@@ -12,6 +13,8 @@ const Overview = () => {
            <DescriptionComponent/>
            <br/>
            <OverviewComponent/>
+           <br/>
+           <Location/>
         </div>
     );
 };
