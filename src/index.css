@@ -249,7 +249,7 @@ table td:not([align]), table th:not([align]) {
   .overview_main {
     grid-template-columns: 12fr;
     grid-gap: 0px 10px;
-    margin-left: 60px;
+    margin-left: 20px;
 }
 .subdivisions img {
   border: none;
