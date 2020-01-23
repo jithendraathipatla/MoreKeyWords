@@ -312,4 +312,7 @@ table td:not([align]), table th:not([align]) {
   padding-right: 0px !important;
   padding-bottom: 30px;
 }
+.main_Form {
+  padding: 10px;
+}
 }
