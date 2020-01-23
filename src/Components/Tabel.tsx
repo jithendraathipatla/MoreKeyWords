@@ -25,30 +25,30 @@ const Tabel = () => {
     <br/>WaterFord</td>
     </tr>
     <tr>
-    <td>1 BHk Small</td>
-     <td><Modal title="Click To Know More" desc="Waterford Pricing"/></td>
-     <td><Modal title="Click To Know More" desc="Waterford Pricing"/></td>
+    <td>1 BHk</td>
+     <td><Modal title="Know More" desc="Waterford Pricing"/></td>
+     <td><Modal title="Know More" desc="Waterford Pricing"/></td>
     </tr>
     <tr>
-     <td>1 BHK Large</td>
-     <td><Modal title="Click To Know More" desc="Waterford Pricing"/></td>
-     <td><Modal title="Click To Know More" desc="Waterford Pricing"/></td>
+     <td>1 BHK</td>
+     <td><Modal title="Know More" desc="Waterford Pricing"/></td>
+     <td><Modal title="Know More" desc="Waterford Pricing"/></td>
     </tr>
     <tr>
      <td>2 BHk</td>
-     <td><Modal title="Click To Know More" desc="Waterford Pricing"/></td>
-     <td><Modal title="Click To Know More" desc="Waterford Pricing"/></td>
+     <td><Modal title="Know More" desc="Waterford Pricing"/></td>
+     <td><Modal title="Know More" desc="Waterford Pricing"/></td>
     
     </tr>
     <tr>
      <td>3 BHK</td>
-     <td><Modal title="Click To Know More" desc="Waterford Pricing"/></td>
-     <td><Modal title="Click To Know More" desc="Waterford Pricing"/></td> 
+     <td><Modal title="Know More" desc="Waterford Pricing"/></td>
+     <td><Modal title="Know More" desc="Waterford Pricing"/></td> 
     </tr>
     <tr>
      <td>4 BHK</td>
-     <td><Modal title="Click To Know More" desc="Waterford Pricing"/></td>
-     <td><Modal title="Click To Know More" desc="Waterford Pricing"/></td>    
+     <td><Modal title="Know More" desc="Waterford Pricing"/></td>
+     <td><Modal title="Know More" desc="Waterford Pricing"/></td>    
     </tr>
   </tbody>
 </table>

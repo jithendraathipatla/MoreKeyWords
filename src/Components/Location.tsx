@@ -6,7 +6,7 @@ import Form from '../Components/Form';
 const Location = () => {
     return (
         <div className="Location-display">
-            <div style={{textAlign:"center", borderRight:"2px solid #eee"}}>
+            <div style={{textAlign:"center", borderRight:"2px solid #eee"}} id="border">
               <Title title="Waterford Location"/>
               <img src={ComingSoon} alt="coming Soon"/>
             </div>
