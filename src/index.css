@@ -247,15 +247,16 @@ table td:not([align]), table th:not([align]) {
 
 @media all and (max-width:600px){
   .overview_main {
-    grid-template-columns: 6fr 6fr;
+    grid-template-columns: 12fr;
     grid-gap: 0px 10px;
-    margin-left: 0px;
+    margin-left: 60px;
 }
 .subdivisions img {
   border: none;
   padding: 0px;
   box-shadow: none;
   border: 50%;
+  height:40px;
 }
 
 .subdivisions img:hover {
