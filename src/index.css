@@ -247,7 +247,20 @@ table td:not([align]), table th:not([align]) {
 
 @media all and (max-width:600px){
   .overview_main {
-    display: block;
+    grid-template-columns: 6fr 6fr;
+    grid-gap: 0px 10px;
+    margin-left: 0px;
+}
+.subdivisions img {
+  border: none;
+  padding: 0px;
+  box-shadow: none;
+  border: 50%;
+}
+
+.subdivisions img:hover {
+  box-shadow: none;
+  cursor: pointer;
 }
  .overview_main .subdivisions{
    padding-bottom: 15px;
@@ -315,4 +328,9 @@ table td:not([align]), table th:not([align]) {
 .main_Form {
   padding: 10px;
 }
+
+.styles_modal__gNwvD {
+  top:70px;
+}
+
 }
